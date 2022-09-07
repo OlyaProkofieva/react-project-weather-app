@@ -1,0 +1,123 @@
+.Weather {
+  background-image: url("../public/images/hero-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 9px 9px 5px rgba(50, 50, 50, 0.3);
+  max-width: 750px;
+  margin: 60px auto 20px auto;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.Weather h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+  margin-bottom: 0px;
+}
+
+.Weather a {
+  text-decoration: none;
+  color: #05123c;
+}
+
+.Weather a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.Weather form {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 20px 20px 20px;
+}
+
+.Weather input[type="search"] {
+  text-align: center;
+  width: 670px;
+  transition: all 200ms ease-in;
+  background-color: rgba(5, 18, 60, 0.6);
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.Weather input[type="search"]:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #05123c;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+.Weather input[type="submit"] {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color: #05123c;
+}
+
+.Weather input[type="submit"]:hover {
+  background-color: rgba(5, 18, 60, 0.6);
+  color: #fff;
+}
+
+.Weather ul {
+  padding-left: 0px;
+}
+
+.Weather li {
+  list-style: none;
+}
+
+.Weather .weather-app {
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.Weather .default-cities {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.Weather .main-weather-info {
+  padding-left: 70px;
+}
+
+.Weather .current-day {
+  font-size: 21px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+.Weather .weather-discription {
+  font-size: 28px;
+  line-height: 1;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+.Weather .main-weather-info img {
+  width: 100px;
+  margin-top: 10px;
+}
+
+.Weather .current-temperature {
+  font-size: 112px;
+  line-height: 1;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.Weather .additional-weather-info li {
+  margin: 10px 0 0 20px;
+  list-style: circle;
+}

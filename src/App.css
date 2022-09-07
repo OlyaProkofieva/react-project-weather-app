@@ -1,0 +1,21 @@
+body {
+  background: linear-gradient(#7494c5, #e8c2c1);
+  background-attachment: fixed;
+}
+
+.App footer {
+  text-align: center;
+  font-family: "Nanum Gothic", sans-serif;
+  color: #05123c;
+  font-size: 14px;
+}
+
+.App footer a {
+  text-decoration: underline;
+  color: #05123c;
+}
+
+.App footer a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
