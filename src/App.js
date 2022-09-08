@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="Kyiv" />
         <footer>
           <p>
             This project was coded by Olha Prokofieva and it's open-sourced on{" "}
