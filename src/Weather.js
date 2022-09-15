@@ -16,7 +16,7 @@ export default function Weather(props) {
       city: response.data.name,
       feelsLikeTemp: response.data.main.feels_like,
       description: response.data.weather[0].description,
-      iconUrl: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
+      icon: response.data.weather[0].icon,
       date: new Date(response.data.dt * 1000),
     });
   }
@@ -40,7 +40,7 @@ export default function Weather(props) {
     return (
       <div className="Weather">
         <div className="weather-app">
-          <div className="row default-cities">
+          {/* <div className="row default-cities">
             <div className="col-2">
               <a href="/">Paris</a>
             </div>
@@ -59,7 +59,7 @@ export default function Weather(props) {
             <div className="col-2">
               <a href="/">Tokyo</a>
             </div>
-          </div>
+    </div> */}
           <form onSubmit={handleSubmit}>
             <input
               type="search"

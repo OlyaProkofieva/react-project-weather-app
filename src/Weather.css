@@ -82,10 +82,10 @@
   padding-bottom: 20px;
 }
 
-.Weather .default-cities {
+/*.Weather .default-cities {
   text-align: center;
   padding-top: 10px;
-}
+}*/
 
 .Weather .main-weather-info {
   padding-left: 70px;
@@ -102,11 +102,6 @@
   line-height: 1;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-}
-
-.Weather .main-weather-info img {
-  width: 100px;
-  margin-top: 10px;
 }
 
 .Weather .current-temperature {
