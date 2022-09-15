@@ -1,0 +1,31 @@
+.WeatherForecast {
+  text-align: center;
+  margin: 10px 20px;
+}
+
+.WeatherForecast .forecast-day-info {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: rgba(5, 18, 60, 0.8);
+  margin: 0 10px;
+}
+
+.WeatherForecast .forecast-day {
+  font-weight: 600;
+  margin: 3px;
+  font-size: 20px;
+}
+
+.WeatherForecast .forecast-temperatures {
+  margin: 3px;
+}
+
+.WeatherForecast .forecast-temperature-max {
+  margin: 0 3px;
+  font-weight: 600;
+}
+
+.WeatherForecast .forecast-temperature-min {
+  margin: 0 3px;
+  opacity: 0.8;
+}
