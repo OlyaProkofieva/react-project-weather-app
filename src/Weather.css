@@ -116,3 +116,37 @@
   margin: 10px 0 0 20px;
   list-style: circle;
 }
+
+@media (max-width: 900px) {
+  .Weather h1 {
+    font-size: 30px;
+    color: #05123c;
+  }
+
+  .Weather .main-weather-info {
+    padding-left: 20px;
+    color: #05123c;
+  }
+
+  .Weather .current-day {
+    font-size: 17px;
+    color: #05123c;
+  }
+
+  .Weather .weather-discription {
+    font-size: 20px;
+    color: #05123c;
+  }
+
+  .Weather .current-temperature {
+    font-size: 60px;
+    color: #05123c;
+    font-weight: 500;
+  }
+
+  .Weather .additional-weather-info li {
+    color: #05123c;
+    margin: 0 auto;
+    font-size: 15px;
+  }
+}
